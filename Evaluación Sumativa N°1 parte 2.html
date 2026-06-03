@@ -11,118 +11,134 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>  
-        <font face="Times New Roman" color="#2E4053" size="24">Uso de HTML y CSS3</font>
-        <font face="Calibri" color="#2E4053" size="4">
-            <fieldset>
-                <h1 class="titulo">Carrusel</h1>
-                <div class="slider-box">
-                    <ul>
-                        <li>
-                            <img src="img/perro.jpg" alt="Perro" class="slider-box formato16-9">
-
-                            <div class="texto">
-                                <h2>Perro</h2>
-                                <p>El perro es un animal doméstico que se ha convertido en el mejor amigo del hombre. Es
-                                    conocido por su lealtad, inteligencia y capacidad para ser entrenado. Los perros
-                                    vienen
-                                    en una amplia variedad de razas, tamaños y colores, y pueden desempeñar diferentes
-                                    roles, como mascotas, perros de trabajo o perros de terapia.
-                                </p>
-                            </div>
-                        </li>
-                        <li><img src="img/gato.jpg" alt="Gato" class="slider-box formato16-9">
-                            <div class="texto">
-                                <h2>Gato</h2>
-                                <p>El gato es un animal doméstico que se ha convertido en una de las mascotas más
-                                    populares
-                                    en todo el mundo. Es conocido por su independencia, agilidad y habilidades de caza.
-                                    Los
-                                    gatos vienen en una amplia variedad de razas, tamaños y colores, y pueden ser
-                                    compañeros
-                                    cariñosos y juguetones para sus dueños.</p>
-                            </div>
-                        </li>
-                        <li><img src="img/huron.jpg" alt="Huron" class="slider-box formato16-9">
-                            <div class="texto">
-                                <h2>Huron</h2>
-                                <p>El hurón es un animal doméstico que se ha vuelto cada vez más popular como mascota.
-                                    Es
-                                    conocido por su cuerpo alargado, pelaje suave y personalidad juguetona. Los hurones
-                                    son
-                                    animales sociales y pueden ser compañeros divertidos para sus dueños, aunque
-                                    requieren
-                                    cuidados específicos debido a su naturaleza activa y curiosa.</p>
-                            </div>
-                        </li>
-                    </ul>
+<body>
+    <center>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mascotas</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" href="https://purina.cl/catchow">Comida de Gato</a>
+                  <a class="nav-link" href="https://purina.cl/dogchow">Comida de Perro</a>
                 </div>
-            </fieldset>
-            <fieldset>
-                <h1 class="titulo">Formulario</h1>
-                <table border="1">
-                    <tr>
-                        <th>Control</th>
-                        <th>Objeto</th>
-                    </tr>
-                    <tr>
-                        <td>Animal Favorito</td>
-                        <td><input type="text" name="caja1" placeholder="Perro, gato, etc." /></td>
-                    </tr>
-                    <tr>
-                        <td>Tienes Mascotas</td>
-                        <td><input type="radio" name="radio1" value="jd" checked="checked" />SI <br />
-                            <input type="radio" name="radio1" value="jv" />NO
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Cuantos Animales Tienes</td>
-                        <td><input type="text" name="caja2" placeholder="Escribe la cantidad" /></td>
-                    </tr>
-                    <tr>
-                        <td>Tamaño Preferido de mascotas</td>
-                        <td><input type="checkbox" name="check1" value="Op1" />pequeño <br />
-                            <input type="checkbox" name="check2" value="Op2" checked="checked" />mediano <br />
-                            <input type="checkbox" name="check3" value="Op3" />grande
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Marca de alimento de mascotas favorita</td>
-                        <td><select id="sel">
-                                <option value="a0" selected="selected">Selecciona Marca</option>
-                                <option value="a1">Chow</option>
-                                <option value="a2">Champion</option>
-                                <option value="a3">Cachupin</option>
-                                <option value="a4">Master</option>
-                                <option value="a5">Whiskas</option>
-                                <option value="a6">Otro</option>
-                            </select></td>
-                    </tr>
-                </table>
-            </fieldset>
-            <fieldset>
-                <h1 class="titulo">Tarjetas</h1>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/rottweiler.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">El rottweiler es una raza de perro conocida por su fuerza, lealtad y
-                            naturaleza protectora.</p>
-                        <a href="https://es.wikipedia.org/wiki/Rottweiler" class="btn btn-primary">Saber más</a>
-                    </div>
+              </div>
+            </div>
+          </nav>
+    <font face="Times New Roman" color="#2E4053" size="24">Uso de HTML y CSS3</font>
+    <font face="Calibri" color="#2E4053" size="4">
+        <fieldset>
+            <h1 class="titulo">Carrusel</h1>
+            <div class="slider-box">
+                <ul>
+                    <li>
+                        <img src="img/perro.jpg" alt="Perro" class="slider-box formato16-9">
+                        <div class="texto">
+                            <h2>Perro</h2>
+                            <p>El perro es un animal doméstico que se ha convertido en el mejor amigo del hombre. Es
+                                conocido por su lealtad, inteligencia y capacidad para ser entrenado. Los perros
+                                vienen
+                                en una amplia variedad de razas, tamaños y colores, y pueden desempeñar diferentes
+                                roles, como mascotas, perros de trabajo o perros de terapia.
+                            </p>
+                        </div>
+                    </li>
+                    <li><img src="img/gato.jpg" alt="Gato" class="slider-box formato16-9">
+                        <div class="texto">
+                            <h2>Gato</h2>
+                            <p>El gato es un animal doméstico que se ha convertido en una de las mascotas más
+                                populares
+                                en todo el mundo. Es conocido por su independencia, agilidad y habilidades de caza.
+                                Los
+                                gatos vienen en una amplia variedad de razas, tamaños y colores, y pueden ser
+                                compañeros
+                                cariñosos y juguetones para sus dueños.</p>
+                        </div>
+                    </li>
+                    <li><img src="img/huron.jpg" alt="Huron" class="slider-box formato16-9">
+                        <div class="texto">
+                            <h2>Huron</h2>
+                            <p>El hurón es un animal doméstico que se ha vuelto cada vez más popular como mascota.
+                                Es
+                                conocido por su cuerpo alargado, pelaje suave y personalidad juguetona. Los hurones
+                                son
+                                animales sociales y pueden ser compañeros divertidos para sus dueños, aunque
+                                requieren
+                                cuidados específicos debido a su naturaleza activa y curiosa.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </fieldset>
+        <fieldset>
+            <h1 class="titulo">Formulario</h1>
+            <table border="1">
+                <tr>
+                    <th>Control</th>
+                    <th>Objeto</th>
+                </tr>
+                <tr>
+                    <td>Animal Favorito</td>
+                    <td><input type="text" name="caja1" placeholder="Perro, gato, etc." /></td>
+                </tr>
+                <tr>
+                    <td>Tienes Mascotas</td>
+                    <td><input type="radio" name="radio1" value="jd" checked="checked" />SI <br />
+                        <input type="radio" name="radio1" value="jv" />NO
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cuantos Animales Tienes</td>
+                    <td><input type="text" name="caja2" placeholder="Escribe la cantidad" /></td>
+                </tr>
+                <tr>
+                    <td>Tamaño Preferido de mascotas</td>
+                    <td><input type="checkbox" name="check1" value="Op1" />pequeño <br />
+                        <input type="checkbox" name="check2" value="Op2" checked="checked" />mediano <br />
+                        <input type="checkbox" name="check3" value="Op3" />grande
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marca de alimento de mascotas favorita</td>
+                    <td><select id="sel">
+                            <option value="a0" selected="selected">Selecciona Marca</option>
+                            <option value="a1">Chow</option>
+                            <option value="a2">Champion</option>
+                            <option value="a3">Cachupin</option>
+                            <option value="a4">Master</option>
+                            <option value="a5">Whiskas</option>
+                            <option value="a6">Otro</option>
+                        </select></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <h1 class="titulo">Tarjetas</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="img/rottweiler.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">El rottweiler es una raza de perro conocida por su fuerza, lealtad y
+                        naturaleza protectora.</p>
+                    <a href="https://es.wikipedia.org/wiki/Rottweiler" class="btn btn-primary">Saber más</a>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/chihuahua.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">El chihuahua es una raza de perro muy popular por su pequeño tamaño y
-                            personalidad juguetona.</p>
-                        <a href="https://es.wikipedia.org/wiki/Chihuahua_(perro)" class="btn btn-primary">Saber
-                            más</a>
-                    </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/chihuahua.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">El chihuahua es una raza de perro muy popular por su pequeño tamaño y
+                        personalidad juguetona.</p>
+                    <a href="https://es.wikipedia.org/wiki/Chihuahua_(perro)" class="btn btn-primary">Saber
+                        más</a>
                 </div>
-            </fieldset>
-        </font>
+            </div>
+        </fieldset>
+    </font>
+</center>
 </body>
 
 </html>

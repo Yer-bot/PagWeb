@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/pngtree-images-of-green-scenery-backgrounds-hd-picture-image_3180687.jpg);
+    background-image: url(../img/perros\ y\ gatos.jpg);
     background-position: repeat;
     background-size: cover;
     background-position: center;
@@ -119,3 +119,7 @@ table {
 table, th, td {
     border: 1px solid rgb(39, 39, 39);
 }
+
+.navbar {
+    background-color: rgb(20, 165, 20);
+}   

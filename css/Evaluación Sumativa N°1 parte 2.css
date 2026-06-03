@@ -1,0 +1,121 @@
+.slider-box img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.formato4-3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #FFF3AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pngtree-images-of-green-scenery-backgrounds-hd-picture-image_3180687.jpg);
+    background-position: repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slider-box {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    width: auto;
+    height: 100%;
+    padding: 0;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+
+.slider-box ul li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.texto {
+    position: absolute;
+    color: #ffffff;
+    padding: 0 250px;
+    text-align: center;
+    top: 250px;
+    background-color: rgba(36, 36, 36, 0.5);
+}
+
+.texto h2 {
+    margin-bottom: 200px;
+    font-size: 24px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(0);
+    }
+
+    34% {
+        transform: translateX(-100%);
+    }
+
+    66% {
+        transform: translateX(-100%);
+    }
+
+    67% {
+        transform: translateX(-200%);
+    }
+
+    99% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-box {
+        width: 100%;
+    }
+
+    .texto {
+        padding: 0 20px;
+        top: 200px;
+    }
+
+    .texto h2 {
+        font-size: 18px;
+    }
+}
+
+table {
+    background-color: rgb(54, 158, 77);
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid rgb(39, 39, 39);
+}
